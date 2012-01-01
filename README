@@ -8,5 +8,6 @@ A sitemap generator like this saves developers the effort to write another XML -
 file - which will have most of the same URL paths, but in a different XML schema.
 Developer can specify an exclusion list, to prevent some paths from being included in the sitemap
 XML.
-The generated sitemap XML files can then be submitted to Google or Bing manually or automatically,
-using their webmaster tools.
+The generated sitemap XML files can then be submitted to Google or Bing, either manually using their
+webmaster tools, or automatically to their sitemap ping services using cron jobs.
+
