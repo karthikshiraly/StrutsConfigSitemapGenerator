@@ -1,0 +1,11 @@
+A Java based console app to generate Sitemap protocol (http://www.sitemaps.org/protocol.html)
+compliant sitemap XML file from a Struts 1.x struts-config.xml file.
+
+What problem does it solve?
+Java web apps based on Struts 1.x already define their URL paths in struts-config.xml.
+A sitemap generator like this saves developers the effort to write another XML - the sitemap XML
+file - which will have most of the same URL paths, but in a different XML schema.
+Developer can specify an exclusion list, to prevent some paths from being included in the sitemap
+XML.
+The generated sitemap XML files can then be submitted to Google or Bing manually or automatically,
+using their webmaster tools.
